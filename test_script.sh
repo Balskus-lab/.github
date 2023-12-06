@@ -8,4 +8,5 @@ FILE=$1
 for line in $FILE;
 do
   some_command $line
+  some_other_command $line
 done
